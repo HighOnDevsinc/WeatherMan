@@ -1,6 +1,5 @@
 ''' Function Based Weather Man App '''
 
-
 import os
 import sys
 from collections import namedtuple
@@ -219,7 +218,7 @@ def command_line_parsing():
 ''' main function of the program where the execution takes place '''
 
 
-if __name__ == "__main__":
+def main():
 
     arguments = command_line_parsing()
 
@@ -273,3 +272,10 @@ if __name__ == "__main__":
                 result["min_temp"][x],
                 "C"
                 )
+
+
+''' caller with __name__ '''
+
+
+if __name__ == "__main__":
+    main()

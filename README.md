@@ -1,4 +1,4 @@
-# WeatherMan
+# Weather Man Function
 This is a function based implementation of a test project for Python. This project can be run for multiple configurations.
 
 ### Different Datasets
